@@ -1,0 +1,7 @@
+cidr_block = "10.1.0.0/16"
+region = "ap-south-1"
+public_subnet = "10.1.1.0/24"
+avz = "ap-south-1a"
+ami = "ami-0931307dcdc2a28c9"
+instance_type = "t3.micro"
+key_name = "server.key"
