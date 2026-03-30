@@ -5,5 +5,6 @@ resource "aws_instance" "my_ec2" {
     vpc_security_group_ids = [var.sg_id]
     associate_public_ip_address = true
     key_name = var.key_name
+    user_data = var.user_data
 
 }

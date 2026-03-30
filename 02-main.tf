@@ -33,4 +33,5 @@ module "my_ec2" {
     instance_type = var.instance_type
     key_name = var.key_name
     sg_id = module.sec_group.security_group_id
+    user_data = file("${path.module}/scripts/user_data.sh")
 }
